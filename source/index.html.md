@@ -5,7 +5,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - php
 
 toc_footers:
-  - <a href='https://github.com/lord/slate'>Documentation Powered by WC Lovers</a>
+  - <a href='https://wordpress.org/plugins/wc-multivendor-marketplace/'>Documentation Powered by WC Lovers</a>
 
 includes:
   - errors
