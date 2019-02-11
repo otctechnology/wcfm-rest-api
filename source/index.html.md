@@ -1608,7 +1608,7 @@ if ($err) {
         "line_items": [
             {
                 "id": 5,
-                "name": "MI AI",
+                "name": "Test Product",
                 "product_id": 257,
                 "variation_id": 0,
                 "quantity": 1,
@@ -1709,875 +1709,356 @@ if ($err) {
 ```json
 [
   {
-      "id": 274,
-      "parent_id": 0,
-      "status": "on-hold",
-      "currency": "INR",
-      "version": "3.5.1",
-      "prices_include_tax": false,
-      "date_created": "2018-12-07T09:08:53",
-      "date_modified": "2018-12-07T09:08:58",
-      "discount_total": "0",
-      "discount_tax": "0",
-      "shipping_total": "20.00",
-      "shipping_tax": "0",
-      "cart_tax": "0",
-      "total": "654.00",
-      "total_tax": "0",
-      "customer_id": 1,
-      "order_key": "wc_order_5c0a38a5cc476",
-      "billing": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN",
-          "email": "testname@gmail.com",
-          "phone": "1111111111"
+    "id": 274,
+    "parent_id": 0,
+    "status": "on-hold",
+    "currency": "INR",
+    "version": "3.5.1",
+    "prices_include_tax": false,
+    "date_created": "2018-12-07T09:08:53",
+    "date_modified": "2018-12-07T09:08:58",
+    "discount_total": "0",
+    "discount_tax": "0",
+    "shipping_total": "20.00",
+    "shipping_tax": "0",
+    "cart_tax": "0",
+    "total": "654.00",
+    "total_tax": "0",
+    "customer_id": 1,
+    "order_key": "wc_order_5c0a38a5cc476",
+    "billing": {
+      "first_name": "Test",
+      "last_name": "Name",
+      "company": "",
+      "address_1": "PAS Road",
+      "address_2": "69T/17",
+      "city": "Kolkata",
+      "state": "WB",
+      "postcode": "700033",
+      "country": "IN",
+      "email": "testname@gmail.com",
+      "phone": "1111111111"
+    },
+    "shipping": {
+      "first_name": "Test",
+      "last_name": "Name",
+      "company": "",
+      "address_1": "PAS Road",
+      "address_2": "69T/17",
+      "city": "Kolkata",
+      "state": "WB",
+      "postcode": "700033",
+      "country": "IN"
+    },
+    "payment_method": "cheque",
+    "payment_method_title": "Check payments",
+    "transaction_id": "",
+    "customer_ip_address": "::1",
+    "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": null,
+    "date_paid": null,
+    "cart_hash": "e053bc38a043cfc980292231c5b33318",
+    "number": "274",
+    "meta_data": [
+      {
+        "id": 5206,
+        "key": "_wcfmmp_order_processed",
+        "value": "yes"
       },
-      "shipping": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN"
-      },
-      "payment_method": "cheque",
-      "payment_method_title": "Check payments",
-      "transaction_id": "",
-      "customer_ip_address": "::1",
-      "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
-      "created_via": "checkout",
-      "customer_note": "",
-      "date_completed": null,
-      "date_paid": null,
-      "cart_hash": "e053bc38a043cfc980292231c5b33318",
-      "number": "274",
-      "meta_data": [
-          {
-              "id": 5206,
-              "key": "_wcfmmp_order_processed",
-              "value": "yes"
-          },
-          {
-              "id": 5210,
-              "key": "_wcfm_new_order_notified",
-              "value": "yes"
-          }
-      ],
-      "line_items": [
-          {
-              "id": 5,
-              "name": "MI AI",
-              "product_id": 257,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 91,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          },
-          {
-              "id": 6,
-              "name": "new sadada",
-              "product_id": 272,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 92,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          }
-      ],
-      "tax_lines": [],
-      "shipping_lines": [],
-      "fee_lines": [],
-      "coupon_lines": [],
-      "date_created_gmt": "2018-12-07T09:08:53",
-      "date_modified_gmt": "2018-12-07T09:08:58",
-      "date_completed_gmt": null,
-      "date_paid_gmt": null,
-      "vendor_order_details": {
-          "ID": "4",
-          "vendor_id": "2",
-          "order_id": "274",
-          "customer_id": "1",
-          "payment_method": "cheque",
-          "product_id": "257",
-          "variation_id": "0",
-          "quantity": "1",
-          "product_price": "299",
-          "purchase_price": "299",
-          "item_id": "5",
-          "item_type": "line_item",
-          "item_sub_total": "299",
-          "item_total": "299",
-          "shipping": "0",
-          "tax": "0",
-          "shipping_tax_amount": "0",
-          "commission_amount": "269.1",
-          "discount_amount": "0",
-          "discount_type": "",
-          "other_amount": "0",
-          "other_amount_type": "",
-          "withdrawal_id": "0",
-          "refunded_id": "0",
-          "refunded_amount": "0",
-          "withdraw_charges": "0",
-          "total_commission": "269.1",
-          "order_status": "on-hold",
-          "shipping_status": "pending",
-          "commission_status": "on-hold",
-          "withdraw_status": "pending",
-          "refund_status": "pending",
-          "is_refunded": "0",
-          "is_partially_refunded": "0",
-          "is_withdrawable": "1",
-          "is_auto_withdrawal": "0",
-          "is_trashed": "0",
-          "commission_paid_date": null,
-          "created": "2018-12-07 14:38:54"
+      {
+        "id": 5210,
+        "key": "_wcfm_new_order_notified",
+        "value": "yes"
       }
+    ],
+    "line_items": [
+      {
+        "id": 5,
+        "name": "Test Product",
+        "product_id": 0,
+        "variation_id": 0,
+        "quantity": 1,
+        "tax_class": "",
+        "subtotal": "299",
+        "subtotal_tax": "0",
+        "total": "299",
+        "total_tax": "0",
+        "taxes": [],
+        "meta_data": [
+            {
+                "id": 91,
+                "key": "_vendor_id",
+                "value": "2"
+            }
+        ],
+        "sku": null,
+        "price": 299
+      },
+      {
+        "id": 6,
+        "name": "new sadada",
+        "product_id": 0,
+        "variation_id": 0,
+        "quantity": 1,
+        "tax_class": "",
+        "subtotal": "299",
+        "subtotal_tax": "0",
+        "total": "299",
+        "total_tax": "0",
+        "taxes": [],
+        "meta_data": [
+            {
+                "id": 92,
+                "key": "_vendor_id",
+                "value": "2"
+            }
+        ],
+        "sku": null,
+        "price": 299
+      }
+    ],
+    "tax_lines": [],
+    "shipping_lines": [],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "date_created_gmt": "2018-12-07T09:08:53",
+    "date_modified_gmt": "2018-12-07T09:08:58",
+    "date_completed_gmt": null,
+    "date_paid_gmt": null,
+    "vendor_order_details": {
+      "ID": "4",
+      "vendor_id": "2",
+      "order_id": "274",
+      "customer_id": "1",
+      "payment_method": "cheque",
+      "product_id": "257,272",
+      "variation_id": "0",
+      "quantity": "1",
+      "product_price": "299",
+      "purchase_price": "299",
+      "item_id": "5",
+      "item_type": "line_item",
+      "item_sub_total": "598",
+      "item_total": "598",
+      "shipping": "0",
+      "tax": "0",
+      "shipping_tax_amount": "0",
+      "commission_amount": "269.1",
+      "discount_amount": "0",
+      "discount_type": "",
+      "other_amount": "0",
+      "other_amount_type": "",
+      "withdrawal_id": "0",
+      "refunded_id": "0",
+      "refunded_amount": "0",
+      "withdraw_charges": "0",
+      "total_commission": "538.2",
+      "order_status": "on-hold",
+      "shipping_status": "pending",
+      "commission_status": "on-hold",
+      "withdraw_status": "pending",
+      "refund_status": "pending",
+      "is_refunded": "0",
+      "is_partially_refunded": "0",
+      "is_withdrawable": "1",
+      "is_auto_withdrawal": "0",
+      "is_trashed": "0",
+      "commission_paid_date": null,
+      "created": "2018-12-07 14:38:54",
+      "order_item_ids": "5,6",
+      "order_item_count": "2",
+      "is_refundeds": "0,0",
+      "refund_statuses": "pending,pending"
+    }
   },
   {
-      "id": 274,
-      "parent_id": 0,
-      "status": "on-hold",
-      "currency": "INR",
-      "version": "3.5.1",
-      "prices_include_tax": false,
-      "date_created": "2018-12-07T09:08:53",
-      "date_modified": "2018-12-07T09:08:58",
-      "discount_total": "0",
-      "discount_tax": "0",
-      "shipping_total": "20.00",
-      "shipping_tax": "0",
-      "cart_tax": "0",
-      "total": "654.00",
-      "total_tax": "0",
-      "customer_id": 1,
-      "order_key": "wc_order_5c0a38a5cc476",
-      "billing": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN",
-          "email": "testname@gmail.com",
-          "phone": "1111111111"
+    "id": 267,
+    "parent_id": 0,
+    "status": "on-hold",
+    "currency": "INR",
+    "version": "3.5.1",
+    "prices_include_tax": false,
+    "date_created": "2018-11-30T10:33:49",
+    "date_modified": "2018-11-30T10:33:51",
+    "discount_total": "0",
+    "discount_tax": "0",
+    "shipping_total": "10.00",
+    "shipping_tax": "0",
+    "cart_tax": "0",
+    "total": "628.00",
+    "total_tax": "0",
+    "customer_id": 1,
+    "order_key": "wc_order_5c01120d1cd6a",
+    "billing": {
+      "first_name": "Test",
+      "last_name": "Name",
+      "company": "",
+      "address_1": "PAS Road",
+      "address_2": "69T/17",
+      "city": "Kolkata",
+      "state": "WB",
+      "postcode": "700033",
+      "country": "IN",
+      "email": "testname@gmail.com",
+      "phone": "1111111111"
+    },
+    "shipping": {
+      "first_name": "Test",
+      "last_name": "Name",
+      "company": "",
+      "address_1": "PAS Road",
+      "address_2": "69T/17",
+      "city": "Kolkata",
+      "state": "WB",
+      "postcode": "700033",
+      "country": "IN"
+    },
+    "payment_method": "cheque",
+    "payment_method_title": "Check payments",
+    "transaction_id": "",
+    "customer_ip_address": "::1",
+    "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": null,
+    "date_paid": null,
+    "cart_hash": "6fa21b29ee1b5a3716a5d3fef061014d",
+    "number": "267",
+    "meta_data": [
+      {
+        "id": 4912,
+        "key": "_wcfmmp_order_processed",
+        "value": "yes"
       },
-      "shipping": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN"
-      },
-      "payment_method": "cheque",
-      "payment_method_title": "Check payments",
-      "transaction_id": "",
-      "customer_ip_address": "::1",
-      "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
-      "created_via": "checkout",
-      "customer_note": "",
-      "date_completed": null,
-      "date_paid": null,
-      "cart_hash": "e053bc38a043cfc980292231c5b33318",
-      "number": "274",
-      "meta_data": [
-          {
-              "id": 5206,
-              "key": "_wcfmmp_order_processed",
-              "value": "yes"
-          },
-          {
-              "id": 5210,
-              "key": "_wcfm_new_order_notified",
-              "value": "yes"
-          }
-      ],
-      "line_items": [
-          {
-              "id": 5,
-              "name": "MI AI",
-              "product_id": 257,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 91,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          },
-          {
-              "id": 6,
-              "name": "new sadada",
-              "product_id": 272,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 92,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          }
-      ],
-      "tax_lines": [],
-      "shipping_lines": [],
-      "fee_lines": [],
-      "coupon_lines": [],
-      "date_created_gmt": "2018-12-07T09:08:53",
-      "date_modified_gmt": "2018-12-07T09:08:58",
-      "date_completed_gmt": null,
-      "date_paid_gmt": null,
-      "vendor_order_details": {
-          "ID": "5",
-          "vendor_id": "2",
-          "order_id": "274",
-          "customer_id": "1",
-          "payment_method": "cheque",
-          "product_id": "272",
-          "variation_id": "0",
-          "quantity": "1",
-          "product_price": "299",
-          "purchase_price": "299",
-          "item_id": "6",
-          "item_type": "line_item",
-          "item_sub_total": "299",
-          "item_total": "299",
-          "shipping": "0",
-          "tax": "0",
-          "shipping_tax_amount": "0",
-          "commission_amount": "269.1",
-          "discount_amount": "0",
-          "discount_type": "",
-          "other_amount": "0",
-          "other_amount_type": "",
-          "withdrawal_id": "0",
-          "refunded_id": "0",
-          "refunded_amount": "0",
-          "withdraw_charges": "0",
-          "total_commission": "269.1",
-          "order_status": "on-hold",
-          "shipping_status": "pending",
-          "commission_status": "on-hold",
-          "withdraw_status": "pending",
-          "refund_status": "pending",
-          "is_refunded": "0",
-          "is_partially_refunded": "0",
-          "is_withdrawable": "1",
-          "is_auto_withdrawal": "0",
-          "is_trashed": "0",
-          "commission_paid_date": null,
-          "created": "2018-12-07 14:38:54"
+      {
+        "id": 4916,
+        "key": "_wcfm_new_order_notified",
+        "value": "yes"
       }
-  },
-  {
-      "id": 267,
-      "parent_id": 0,
-      "status": "on-hold",
-      "currency": "INR",
-      "version": "3.5.1",
-      "prices_include_tax": false,
-      "date_created": "2018-11-30T10:33:49",
-      "date_modified": "2018-11-30T10:33:51",
-      "discount_total": "0",
-      "discount_tax": "0",
-      "shipping_total": "10.00",
-      "shipping_tax": "0",
-      "cart_tax": "0",
-      "total": "628.00",
-      "total_tax": "0",
-      "customer_id": 1,
-      "order_key": "wc_order_5c01120d1cd6a",
-      "billing": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN",
-          "email": "testname@gmail.com",
-          "phone": "11111111111"
+    ],
+    "line_items": [
+      {
+        "id": 1,
+        "name": "Polo",
+        "product_id": 40,
+        "variation_id": 0,
+        "quantity": 1,
+        "tax_class": "",
+        "subtotal": "20",
+        "subtotal_tax": "0",
+        "total": "20",
+        "total_tax": "0",
+        "taxes": [],
+        "meta_data": [
+            {
+                "id": 36,
+                "key": "_vendor_id",
+                "value": "2"
+            }
+        ],
+        "sku": "",
+        "price": 20
       },
-      "shipping": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN"
+      {
+        "id": 2,
+        "name": "Test Prod2",
+        "product_id": 0,
+        "variation_id": 0,
+        "quantity": 1,
+        "tax_class": "",
+        "subtotal": "299",
+        "subtotal_tax": "0",
+        "total": "299",
+        "total_tax": "0",
+        "taxes": [],
+        "meta_data": [
+            {
+                "id": 37,
+                "key": "_vendor_id",
+                "value": "2"
+            }
+        ],
+        "sku": null,
+        "price": 299
       },
-      "payment_method": "cheque",
-      "payment_method_title": "Check payments",
-      "transaction_id": "",
-      "customer_ip_address": "::1",
-      "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36",
-      "created_via": "checkout",
-      "customer_note": "",
-      "date_completed": null,
-      "date_paid": null,
-      "cart_hash": "6fa21b29ee1b5a3716a5d3fef061014d",
-      "number": "267",
-      "meta_data": [
-          {
-              "id": 4912,
-              "key": "_wcfmmp_order_processed",
-              "value": "yes"
-          },
-          {
-              "id": 4916,
-              "key": "_wcfm_new_order_notified",
-              "value": "yes"
-          }
-      ],
-      "line_items": [
-          {
-              "id": 1,
-              "name": "Polo",
-              "product_id": 40,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "20",
-              "subtotal_tax": "0",
-              "total": "20",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 36,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 20
-          },
-          {
-              "id": 2,
-              "name": "MI AI",
-              "product_id": 254,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 37,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          },
-          {
-              "id": 3,
-              "name": "MI AI",
-              "product_id": 255,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 38,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          }
-      ],
-      "tax_lines": [],
-      "shipping_lines": [],
-      "fee_lines": [],
-      "coupon_lines": [],
-      "date_created_gmt": "2018-11-30T10:33:49",
-      "date_modified_gmt": "2018-11-30T10:33:51",
-      "date_completed_gmt": null,
-      "date_paid_gmt": null,
-      "vendor_order_details": {
-          "ID": "1",
-          "vendor_id": "2",
-          "order_id": "267",
-          "customer_id": "1",
-          "payment_method": "cheque",
-          "product_id": "40",
-          "variation_id": "0",
-          "quantity": "1",
-          "product_price": "20",
-          "purchase_price": "20",
-          "item_id": "1",
-          "item_type": "line_item",
-          "item_sub_total": "20",
-          "item_total": "20",
-          "shipping": "0",
-          "tax": "0",
-          "shipping_tax_amount": "0",
-          "commission_amount": "18",
-          "discount_amount": "0",
-          "discount_type": "",
-          "other_amount": "0",
-          "other_amount_type": "",
-          "withdrawal_id": "0",
-          "refunded_id": "0",
-          "refunded_amount": "0",
-          "withdraw_charges": "0",
-          "total_commission": "18",
-          "order_status": "on-hold",
-          "shipping_status": "pending",
-          "commission_status": "on-hold",
-          "withdraw_status": "pending",
-          "refund_status": "pending",
-          "is_refunded": "0",
-          "is_partially_refunded": "0",
-          "is_withdrawable": "1",
-          "is_auto_withdrawal": "0",
-          "is_trashed": "0",
-          "commission_paid_date": null,
-          "created": "2018-11-30 16:03:49"
+      {
+        "id": 3,
+        "name": "Test Product",
+        "product_id": 0,
+        "variation_id": 0,
+        "quantity": 1,
+        "tax_class": "",
+        "subtotal": "299",
+        "subtotal_tax": "0",
+        "total": "299",
+        "total_tax": "0",
+        "taxes": [],
+        "meta_data": [
+            {
+                "id": 38,
+                "key": "_vendor_id",
+                "value": "2"
+            }
+        ],
+        "sku": null,
+        "price": 299
       }
-  },
-  {
-      "id": 267,
-      "parent_id": 0,
-      "status": "on-hold",
-      "currency": "INR",
-      "version": "3.5.1",
-      "prices_include_tax": false,
-      "date_created": "2018-11-30T10:33:49",
-      "date_modified": "2018-11-30T10:33:51",
-      "discount_total": "0",
-      "discount_tax": "0",
-      "shipping_total": "10.00",
-      "shipping_tax": "0",
-      "cart_tax": "0",
-      "total": "628.00",
-      "total_tax": "0",
-      "customer_id": 1,
-      "order_key": "wc_order_5c01120d1cd6a",
-      "billing": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN",
-          "email": "testname@gmail.com",
-          "phone": "1111111111"
-      },
-      "shipping": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700003",
-          "country": "IN"
-      },
+    ],
+    "tax_lines": [],
+    "shipping_lines": [],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "date_created_gmt": "2018-11-30T10:33:49",
+    "date_modified_gmt": "2018-11-30T10:33:51",
+    "date_completed_gmt": null,
+    "date_paid_gmt": null,
+    "vendor_order_details": {
+      "ID": "1",
+      "vendor_id": "2",
+      "order_id": "267",
+      "customer_id": "1",
       "payment_method": "cheque",
-      "payment_method_title": "Check payments",
-      "transaction_id": "",
-      "customer_ip_address": "::1",
-      "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36",
-      "created_via": "checkout",
-      "customer_note": "",
-      "date_completed": null,
-      "date_paid": null,
-      "cart_hash": "6fa21b29ee1b5a3716a5d3fef061014d",
-      "number": "267",
-      "meta_data": [
-          {
-              "id": 4912,
-              "key": "_wcfmmp_order_processed",
-              "value": "yes"
-          },
-          {
-              "id": 4916,
-              "key": "_wcfm_new_order_notified",
-              "value": "yes"
-          }
-      ],
-      "line_items": [
-          {
-              "id": 1,
-              "name": "Polo",
-              "product_id": 40,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "20",
-              "subtotal_tax": "0",
-              "total": "20",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 36,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 20
-          },
-          {
-              "id": 2,
-              "name": "MI AT",
-              "product_id": 254,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 37,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          },
-          {
-              "id": 3,
-              "name": "MI AI",
-              "product_id": 255,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 38,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          }
-      ],
-      "tax_lines": [],
-      "shipping_lines": [],
-      "fee_lines": [],
-      "coupon_lines": [],
-      "date_created_gmt": "2018-11-30T10:33:49",
-      "date_modified_gmt": "2018-11-30T10:33:51",
-      "date_completed_gmt": null,
-      "date_paid_gmt": null,
-      "vendor_order_details": {
-          "ID": "2",
-          "vendor_id": "2",
-          "order_id": "267",
-          "customer_id": "1",
-          "payment_method": "cheque",
-          "product_id": "254",
-          "variation_id": "0",
-          "quantity": "1",
-          "product_price": "299",
-          "purchase_price": "299",
-          "item_id": "2",
-          "item_type": "line_item",
-          "item_sub_total": "299",
-          "item_total": "299",
-          "shipping": "0",
-          "tax": "0",
-          "shipping_tax_amount": "0",
-          "commission_amount": "269.1",
-          "discount_amount": "0",
-          "discount_type": "",
-          "other_amount": "0",
-          "other_amount_type": "",
-          "withdrawal_id": "0",
-          "refunded_id": "0",
-          "refunded_amount": "0",
-          "withdraw_charges": "0",
-          "total_commission": "269.1",
-          "order_status": "on-hold",
-          "shipping_status": "pending",
-          "commission_status": "on-hold",
-          "withdraw_status": "pending",
-          "refund_status": "pending",
-          "is_refunded": "0",
-          "is_partially_refunded": "0",
-          "is_withdrawable": "1",
-          "is_auto_withdrawal": "0",
-          "is_trashed": "0",
-          "commission_paid_date": null,
-          "created": "2018-11-30 16:03:49"
-      }
-  },
-  {
-      "id": 267,
-      "parent_id": 0,
-      "status": "on-hold",
-      "currency": "INR",
-      "version": "3.5.1",
-      "prices_include_tax": false,
-      "date_created": "2018-11-30T10:33:49",
-      "date_modified": "2018-11-30T10:33:51",
-      "discount_total": "0",
-      "discount_tax": "0",
-      "shipping_total": "10.00",
-      "shipping_tax": "0",
-      "cart_tax": "0",
-      "total": "628.00",
-      "total_tax": "0",
-      "customer_id": 1,
-      "order_key": "wc_order_5c01120d1cd6a",
-      "billing": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN",
-          "email": "testName@gmail.com",
-          "phone": "1111111111"
-      },
-      "shipping": {
-          "first_name": "Test",
-          "last_name": "Name",
-          "company": "",
-          "address_1": "PAS Road",
-          "address_2": "111",
-          "city": "Kolkata",
-          "state": "WB",
-          "postcode": "700001",
-          "country": "IN"
-      },
-      "payment_method": "cheque",
-      "payment_method_title": "Check payments",
-      "transaction_id": "",
-      "customer_ip_address": "::1",
-      "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36",
-      "created_via": "checkout",
-      "customer_note": "",
-      "date_completed": null,
-      "date_paid": null,
-      "cart_hash": "6fa21b29ee1b5a3716a5d3fef061014d",
-      "number": "267",
-      "meta_data": [
-          {
-              "id": 4912,
-              "key": "_wcfmmp_order_processed",
-              "value": "yes"
-          },
-          {
-              "id": 4916,
-              "key": "_wcfm_new_order_notified",
-              "value": "yes"
-          }
-      ],
-      "line_items": [
-          {
-              "id": 1,
-              "name": "Polo",
-              "product_id": 40,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "20",
-              "subtotal_tax": "0",
-              "total": "20",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 36,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 20
-          },
-          {
-              "id": 2,
-              "name": "MI AT",
-              "product_id": 254,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 37,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          },
-          {
-              "id": 3,
-              "name": "MI AI",
-              "product_id": 255,
-              "variation_id": 0,
-              "quantity": 1,
-              "tax_class": "",
-              "subtotal": "299",
-              "subtotal_tax": "0",
-              "total": "299",
-              "total_tax": "0",
-              "taxes": [],
-              "meta_data": [
-                  {
-                      "id": 38,
-                      "key": "_vendor_id",
-                      "value": "2"
-                  }
-              ],
-              "sku": "",
-              "price": 299
-          }
-      ],
-      "tax_lines": [],
-      "shipping_lines": [],
-      "fee_lines": [],
-      "coupon_lines": [],
-      "date_created_gmt": "2018-11-30T10:33:49",
-      "date_modified_gmt": "2018-11-30T10:33:51",
-      "date_completed_gmt": null,
-      "date_paid_gmt": null,
-      "vendor_order_details": {
-          "ID": "3",
-          "vendor_id": "2",
-          "order_id": "267",
-          "customer_id": "1",
-          "payment_method": "cheque",
-          "product_id": "255",
-          "variation_id": "0",
-          "quantity": "1",
-          "product_price": "299",
-          "purchase_price": "299",
-          "item_id": "3",
-          "item_type": "line_item",
-          "item_sub_total": "299",
-          "item_total": "299",
-          "shipping": "0",
-          "tax": "0",
-          "shipping_tax_amount": "0",
-          "commission_amount": "269.1",
-          "discount_amount": "0",
-          "discount_type": "",
-          "other_amount": "0",
-          "other_amount_type": "",
-          "withdrawal_id": "0",
-          "refunded_id": "0",
-          "refunded_amount": "0",
-          "withdraw_charges": "0",
-          "total_commission": "269.1",
-          "order_status": "on-hold",
-          "shipping_status": "pending",
-          "commission_status": "on-hold",
-          "withdraw_status": "pending",
-          "refund_status": "pending",
-          "is_refunded": "0",
-          "is_partially_refunded": "0",
-          "is_withdrawable": "1",
-          "is_auto_withdrawal": "0",
-          "is_trashed": "0",
-          "commission_paid_date": null,
-          "created": "2018-11-30 16:03:49"
-      }
+      "product_id": "40,254,255",
+      "variation_id": "0",
+      "quantity": "1",
+      "product_price": "20",
+      "purchase_price": "20",
+      "item_id": "1",
+      "item_type": "line_item",
+      "item_sub_total": "618",
+      "item_total": "618",
+      "shipping": "0",
+      "tax": "0",
+      "shipping_tax_amount": "0",
+      "commission_amount": "18",
+      "discount_amount": "0",
+      "discount_type": "",
+      "other_amount": "0",
+      "other_amount_type": "",
+      "withdrawal_id": "0",
+      "refunded_id": "0",
+      "refunded_amount": "0",
+      "withdraw_charges": "0",
+      "total_commission": "556.2",
+      "order_status": "on-hold",
+      "shipping_status": "pending",
+      "commission_status": "on-hold",
+      "withdraw_status": "pending",
+      "refund_status": "pending",
+      "is_refunded": "0",
+      "is_partially_refunded": "0",
+      "is_withdrawable": "1",
+      "is_auto_withdrawal": "0",
+      "is_trashed": "0",
+      "commission_paid_date": null,
+      "created": "2018-11-30 16:03:49",
+      "order_item_ids": "1,2,3",
+      "order_item_count": "3",
+      "is_refundeds": "0,0,0",
+      "refund_statuses": "pending,pending,pending"
+    }
   }
 ]
 ```
@@ -2587,3 +2068,387 @@ This API helps you to view all the orders.
 ### HTTP Request
 
 `GET <site_base_url>/wp-json/wcfmmp/v1/orders/`
+
+### HTTP Request with Pagination
+
+`GET <site_base_url>/wp-json/wcfmmp/v1/orders/?per_page=2&page=2`
+
+### Available parameters
+
+Attribute | Type | Description
+--------- | ---- | -----------
+`page` | integer | Current page of the collection. Default is `1`.
+`per_page` | integer | Maximum number of items to be returned in result set. Default is `10`.
+`search` | string | Limit results to those matching a order number.
+`after` | string | Limit response to resources published after a given ISO8601 compliant date.
+`before` | string | Limit response to resources published before a given ISO8601 compliant date.
+`order` | string | Order sort attribute ascending or descending. Options: `ASC` and `DESC`. Default is `DESC`.
+`orderby` | string | Sort collection by object attribute. Options: `date`, `order_id`, `include`, `title` and `slug`. Default is `order_id`.
+
+
+# Restricted Capabilities
+
+The Restricted Capabilities API allows you to get the capabilites which are restricted for a vendor.
+
+## Get Restricted Capabilities
+
+```php
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "<site_base_url>/wp-json/wcfmmp/v1/restricted-capabilities/",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Basic authorization_token",
+    "Cache-Control: no-cache",
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
+```
+
+This API allows you to get all the resticted capabilites of the vendor ie the modules which the vedors DO NOT have pemissions to.
+
+### HTTP Request
+
+`GET <site_base_url>/wp-json/wcfmmp/v1/restricted-capabilities/`
+
+>JSON response example:
+
+```json
+{
+    "gallery_img": "yes",
+    "tags": "yes",
+    "spacelimit": "",
+    "articlelimit": "",
+    "productlimit": "",
+    "featured_product_limit": "",
+    "gallerylimit": "",
+    "article_catlimit": "",
+    "catlimit": "",
+    "customerlimit": "",
+    "stafflimit": "",
+    "allowed_categories": [],
+    "manage_commission": "yes",
+    "wp_admin_view": "yes",
+    "manage_groups": "yes",
+    "manage_managers": "yes",
+    "capability_controller": "yes",
+    "membership": "yes"
+}
+```
+
+# Settings
+
+The Settings API allows you to get the vendors settings by id or email.
+
+## Get Settings by Email
+
+```php
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "<site_base_url>/wp-json/wcfmmp/v1/settings/email/test_vendor@gmail.com/",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Basic authorization_token",
+    "Cache-Control: no-cache",
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
+```
+
+This API retrives all the settings of a vendor by the email address of the vendor.
+
+### HTTP Request
+
+`GET <site_base_url>/wp-json/wcfmmp/v1/settings/email/<email>`
+
+## Get Settings by ID
+
+```php
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "<site_base_url>/wp-json/wcfmmp/v1/settings/id/2/",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Basic authorization_token",
+    "Cache-Control: no-cache",
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
+```
+
+This API retrives all the settings of a vendor by the user id of the vendor.
+
+### HTTP Request
+
+`GET <site_base_url>/wp-json/wcfmmp/v1/settings/id/<id>`
+
+>JSON response example:
+
+```json
+{
+    "gravatar": "",
+    "list_banner": "",
+    "banner_type": "single_img",
+    "banner": "",
+    "banner_video": "",
+    "banner_slider": [
+        {
+            "image": ""
+        }
+    ],
+    "store_name": "Test Vendor Store",
+    "store_slug": "test_vendor_store",
+    "phone": "2222222222",
+    "shop_description": "<p><br data-mce-bogus=\"1\"></p>",
+    "address": {
+        "street_1": "PAS Road",
+        "street_2": "111",
+        "city": "Kolkata",
+        "zip": "700033",
+        "country": "IN",
+        "state": "WB"
+    },
+    "store_name_position": "on_banner",
+    "store_ppp": "10",
+    "payment": {
+        "method": "paypal",
+        "paypal": {
+            "email": "test@test.com"
+        },
+        "skrill": {
+            "email": ""
+        },
+        "bank": {
+            "ac_name": "",
+            "ac_number": "",
+            "bank_name": "",
+            "bank_addr": "",
+            "routing_number": "",
+            "iban": "",
+            "swift": "",
+            "ifsc": ""
+        }
+    },
+    "wcfmmp_shipping": {
+        "_wcfmmp_user_shipping_type": ""
+    },
+    "wcfmmp_shipping_by_country": {
+        "_wcfmmp_shipping_type_price": "",
+        "_wcfmmp_additional_product": "",
+        "_wcfmmp_additional_qty": "",
+        "_wcfmmp_pt": "",
+        "_wcfmmp_form_location": ""
+    },
+    "wcfmmp_shipping_rates": [
+        {
+            "wcfmmp_country_to": "",
+            "wcfmmp_country_to_price": "",
+            "wcfmmp_shipping_state_rates": [
+                {
+                    "wcfmmp_state_to": "",
+                    "wcfmmp_state_to_price": ""
+                }
+            ]
+        }
+    ],
+    "store_seo": {
+        "wcfmmp-seo-meta-title": "",
+        "wcfmmp-seo-meta-desc": "",
+        "wcfmmp-seo-meta-keywords": "",
+        "wcfmmp-seo-og-title": "",
+        "wcfmmp-seo-og-desc": "",
+        "wcfmmp-seo-og-image": "",
+        "wcfmmp-seo-twitter-title": "",
+        "wcfmmp-seo-twitter-desc": "",
+        "wcfmmp-seo-twitter-image": ""
+    },
+    "customer_support": {
+        "phone": "",
+        "email": "",
+        "address1": "",
+        "address2": "",
+        "country": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+    },
+    "wcfm_store_hours": {
+        "day_times": [
+            {
+                "start": "",
+                "end": ""
+            },
+            {
+                "start": "",
+                "end": ""
+            },
+            {
+                "start": "",
+                "end": ""
+            },
+            {
+                "start": "",
+                "end": ""
+            },
+            {
+                "start": "",
+                "end": ""
+            },
+            {
+                "start": "",
+                "end": ""
+            },
+            {
+                "start": "",
+                "end": ""
+            }
+        ]
+    },
+    "wcfm_policy_tab_title": "",
+    "wcfm_shipping_policy": "",
+    "wcfm_refund_policy": "",
+    "wcfm_cancellation_policy": "",
+    "store_hide_email": "no",
+    "store_hide_phone": "no",
+    "store_hide_address": "no",
+    "wcfm_vacation_mode": "no",
+    "wcfm_disable_vacation_purchase": "no"
+}
+```
+
+# Notifications
+
+The Notification API allows you to get the the notifications of the user from the site.
+
+## Get Notifications
+
+```php
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "<site_base_url>/wp-json/wcfmmp/v1/notifications/",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Basic authorization_token",
+    "Cache-Control: no-cache",
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
+```
+
+>JSON response example:
+
+```json
+[
+    {
+        "ID": "107",
+        "message": "#274 order status updated to On hold",
+        "message_type": "status-update",
+        "created": "2018-12-07 14:39:02"
+    },
+    {
+        "ID": "106",
+        "message": "#274 order status updated to On hold",
+        "message_type": "status-update",
+        "created": "2018-12-07 14:39:01"
+    },
+    {
+        "ID": "103",
+        "message": "You have received an Order #274 for Test Product",
+        "message_type": "order",
+        "created": "2018-12-07 14:38:58"
+    }
+]
+```
+
+This API retrives all the notificaions of the users vendors/admin.
+
+### HTTP Request
+
+`GET <site_base_url>/wp-json/wcfmmp/v1/notifications/`
+
+### HTTP Request with Pagination 
+
+`GET <site_base_url>/wp-json/wcfmmp/v1/notifications/?per_page=2&page=2`
+
+### Available parameters
+
+Attribute | Type | Description
+--------- | ---- | -----------
+`page` | integer | Current page of the collection. Default is `1`.
+`per_page` | integer | Maximum number of items to be returned in result set. Default is `10`.
+`notification_status` | string | Either to retrive read or unread notifications. Options: `read` and `unread`. Default is `unread`
+`notification_type` | string | The type of notification to retrive. Options: `all`, `direct`, `product_review`, `status-update`, `withdraw-request`, `refund-request` , `new_product`, `new_taxonomy_term`, `order,enquiry`, `support`,`new_staff`, `new_customer`, `new_follower`, `registration`, `membership`, `vendor_approval`, `membership-reminder`, `membership-cancel`, `membership-expired`, `vendor-disable`, `vendor-enable`, `pay_for_product`, `shipment_tracking`, `shipment_received`, `verification`, `review`. Default is `all`.
+`order` | string | Order sort attribute ascending or descending. Options: `ASC` and `DESC`. Default is `DESC`.
+`orderby` | string | Sort collection by object attribute. Options: `ID`, `message_type`, `created`. Default is `ID`.
